@@ -273,12 +273,12 @@ button:active {
     flex-direction: column;
     gap: 19px;
     margin-top: -152px;
-    margin-left: 422px;
+    margin-left: 420px;
 }
 
 .header__welcome-title {
     display: flex;
-    gap: 19px;
+    gap: 14px;
 }
 
 .intro-logo {
@@ -296,7 +296,7 @@ button:active {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -308,14 +308,9 @@ button:active {
     flex-shrink: 0;
     width: 21px;
     height: 21px;
-    margin-left: 3px;
     stroke: #56CCF2;
     background-image: url(../images/Vector-wight.svg);
     stroke-width: 1px;
-}
-
-.intro-text-wight {
-    margin-left: 4px;
 }
 
 .header__welcome-text {
@@ -657,12 +652,12 @@ button:active {
     align-self: center;
     width: 176px;
     height: 80px;
-    padding-top: 10px;
+    padding-top: 11px;
     color: #253757;
     font-weight: 400;
     font-size: 12px;
     font-style: normal;
-    line-height: 158%;
+    line-height: 150%;
     text-align: center;
     word-spacing: 3px;
 }
@@ -800,7 +795,7 @@ button:active {
 
 .testimonials__intro {
     display: flex;
-    gap: 16px;
+    gap: 10px;
     padding-top: 165px;
     padding-left: 230px;
 }
@@ -884,7 +879,7 @@ button:active {
 
 .testimonials__cards-text {
     flex-shrink: 0;
-    width: 285px;
+    width: 290px;
     height: 64px;
     padding-top: 44px;
     color: #253757;
@@ -892,6 +887,7 @@ button:active {
     font-size: 15px;
     font-style: italic;
     line-height: 150%;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -996,7 +992,6 @@ button:active {
     font-size: 24px;
     font-style: normal;
     line-height: 150%;
-    letter-spacing: -0.003em;
     text-align: center;
     word-spacing: -1px;
 }
@@ -1140,8 +1135,8 @@ button:active {
 .message__intro {
     display: flex;
     gap: 16px;
-    padding-top: 5px;
-    padding-left: 6px;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 
 .message__form {
@@ -1234,9 +1229,9 @@ label {
     font-size: 12px;
     font-style: normal;
     line-height: 150%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    word-spacing: 1px;
+    word-spacing: -1px;
 }
 
 
@@ -1249,7 +1244,6 @@ label {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    word-spacing: -2px
 }
 
 .social__icons {
