@@ -84,11 +84,10 @@ ol {
 }
 
 .header__menu-list {
-    left: 10px;
     display: flex;
     gap: 63px;
     padding-top: 4px;
-    padding-left: 16px;
+    padding-left: 10px;
     list-style: none;
 }
 
@@ -107,7 +106,7 @@ ol {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 34px;
+    height: 36px;
 }
 
 .header__menu-rectangle {
@@ -138,7 +137,6 @@ ol {
     font-size: 64px;
     font-style: normal;
     line-height: 150%;
-    letter-spacing: -0.043em;
 }
 
 .header__text-description {
@@ -152,8 +150,6 @@ ol {
     font-size: 24px;
     font-style: normal;
     line-height: 150%;
-    letter-spacing: 0.03em;
-    word-spacing: -0.065em;
 }
 
 button {
@@ -170,13 +166,12 @@ button:active {
 
 .header__button {
     position: relative;
-    top: 2px;
+    top: 4px;
     border-radius: 64px;
     background: #FFF;
 }
 
 .header__button-text {
-    padding-top: 2px;
     color: #253757;
     font-weight: 700;
     font-size: 16px;
@@ -203,8 +198,8 @@ button:active {
 
 .header__photo-intro {
     position: absolute;
-    top: 474px;
-    left: 92px;
+    top: 479px;
+    left: 96px;
     color: #56CCF2;
     font-weight: 800;
     font-size: 13px;
@@ -216,15 +211,14 @@ button:active {
 
 .header__photo-intro-text {
     position: absolute;
-    top: 500px;
-    left: 94px;
+    top: 502px;
+    left: 99px;
     width: 284px;
     color: #FFF;
     font-weight: 900;
     font-size: 19px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -1px;
     word-spacing: 1px;
 }
 
@@ -305,9 +299,9 @@ button:active {
 .header__welcome {
     display: flex;
     flex-direction: column;
-    gap: 19px;
-    margin-top: -152px;
-    margin-left: 420px;
+    gap: 21px;
+    margin-top: -153px;
+    margin-left: 422px;
 }
 
 .header__welcome-title {
@@ -330,8 +324,11 @@ button:active {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
     text-transform: uppercase;
+    margin-top: -2px;
+    margin-left: 2px;
 }
 
 .intro {
@@ -354,7 +351,6 @@ button:active {
     font-size: 24px;
     font-style: normal;
     line-height: 36px;
-    word-spacing: -1px;
 }
 
 .fon__blu {
@@ -409,13 +405,13 @@ button:active {
 
 .what__we-do-title {
     position: relative;
+    top: 2px;
     width: 561px;
     color: #253757;
     font-weight: 900;
     font-size: 48px;
     font-style: normal;
     line-height: 48px;
-    letter-spacing: -2px;
     text-align: center;
 }
 
@@ -441,20 +437,18 @@ button:active {
     font-size: 19px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -1px;
-    word-spacing: 1px;
+    word-spacing: 2px;
 }
 
 .group__container-ellipse-text {
     width: 300px;
-    padding-top: 34px;
+    padding-top: 32px;
     padding-left: 30px;
     color: #334563;
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
     line-height: 150%;
-    word-spacing: 2px;
 }
 
 .group__container-ellipse-left {
@@ -508,25 +502,23 @@ button:active {
     width: 374px;
     height: 377px;
     padding-top: 6px;
-    padding-left: 26px;
+    padding-left: 29px;
 }
 
 .process__illusion-intro {
     display: flex;
-    gap: 16px;
-    padding-top: 4px;
+    gap: 15px;
+    padding-top: 7px;
 }
 
 .process__illusion-title {
     width: 382px;
-    padding-bottom: 45px;
+    padding-bottom: 42px;
     color: #253757;
     font-weight: 900;
     font-size: 32px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -0.03em;
-    word-spacing: -0.14em;
 }
 
 .process__illusion-text {
@@ -536,7 +528,6 @@ button:active {
     font-size: 16px;
     font-style: normal;
     line-height: 150%;
-    word-spacing: 2px;
 }
 
 .process__illusion-card {
@@ -682,14 +673,14 @@ button:active {
     justify-self: center;
     width: 176px;
     height: 80px;
-    padding-top: 11px;
+    padding-top: 10px;
     color: #253757;
     font-weight: 400;
     font-size: 12px;
     font-style: normal;
-    line-height: 150%;
+    line-height: 160%;
     text-align: center;
-    word-spacing: 3px;
+    word-spacing: 2px;
 }
 
 .process__illusion-photo-container {
@@ -712,7 +703,7 @@ button:active {
 
 .cover__illusion-block {
     position: absolute;
-    top: 196px;
+    top: 201px;
     left: 217px;
     width: 380px;
     height: 630px;
@@ -720,28 +711,26 @@ button:active {
 
 .cover__illusion-block-title {
     display: flex;
-    gap: 10px;
-    padding-left: 10px;
+    gap: 14px;
+    padding-left: 14px;
 }
 
 .cover__illusion-title {
     padding-top: 20px;
-    padding-left: 12px;
+    padding-left: 14px;
     color: #253757;
     font-weight: 900;
     font-size: 32px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -0.03em;
-    word-spacing: -0.14em;
 }
 
 .cover__illusion-block-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 485px;
-    padding-top: 71px;
+    height: 484px;
+    padding-top: 67px;
     padding-left: 15px;
 }
 
@@ -763,8 +752,7 @@ button:active {
 
 .description-circle-logo {
     position: absolute;
-    left: 28px;
-    flex-shrink: 0;
+    left: 34px;
     width: 24px;
     height: 24px;
 }
@@ -825,21 +813,19 @@ button:active {
 
 .testimonials__intro {
     display: flex;
-    gap: 10px;
-    padding-top: 165px;
+    gap: 14px;
+    padding-top: 168px;
     padding-left: 230px;
 }
 
 .testimonials__title {
-    padding-top: 18px;
-    padding-left: 228px;
+    padding-top: 21px;
+    padding-left: 231px;
     color: #253757;
     font-weight: 900;
     font-size: 32px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -0.03em;
-    word-spacing: -0.14em;
 }
 
 .testimonials__cards {
@@ -911,14 +897,14 @@ button:active {
     flex-shrink: 0;
     width: 290px;
     height: 64px;
-    padding-top: 44px;
+    padding-top: 46px;
     color: #253757;
     font-family: Mulish, cursive;
     font-weight: 400;
     font-size: 15px;
-    line-height: 150%;
+    line-height: 148%;
     text-align: center;
-    word-spacing: -0.15em;
+    word-spacing: -1px;
 }
 
 .testimonials__cards-feature {
@@ -943,7 +929,7 @@ button:active {
 }
 
 .testimonials__cards-name {
-    padding-top: 108px;
+    padding-top: 109px;
     color: #152032;
     font-weight: 700;
     font-size: 13px;
@@ -995,7 +981,7 @@ button:active {
 
 .vision__bloc {
     position: absolute;
-    top: -441px;
+    top: -438px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1010,7 +996,6 @@ button:active {
     font-size: 48px;
     font-style: normal;
     line-height: 100%;
-    letter-spacing: -3px;
     text-align: center;
 }
 
@@ -1021,9 +1006,8 @@ button:active {
     font-weight: 600;
     font-size: 24px;
     font-style: normal;
-    line-height: 150%;
+    line-height: 148%;
     text-align: center;
-    word-spacing: -1px;
 }
 
 .vision__button {
@@ -1165,16 +1149,16 @@ button:active {
 .message__intro {
     display: flex;
     gap: 16px;
-    padding-top: 4px;
-    padding-left: 4px;
+    padding-top: 7px;
+    padding-left: 7px;
 }
 
 .message__form {
     display: flex;
     flex-direction: column;
-    gap: 54px;
+    gap: 51px;
     width: 656px;
-    padding-top: 95px;
+    padding-top: 97px;
 }
 
 label {
@@ -1211,7 +1195,7 @@ label {
     flex-shrink: 0;
     width: 226px;
     height: 56px;
-    margin-top: 62px;
+    margin-top: 64px;
     margin-left: 8px;
     border: 1px solid transparent;
     border-radius: 64px;
@@ -1236,8 +1220,8 @@ label {
 
 .contact__intro {
     display: flex;
-    gap: 16px;
-    padding-top: 4px;
+    gap: 14px;
+    padding-top: 8px;
 }
 
 .message__contact-title {
@@ -1248,12 +1232,10 @@ label {
     font-size: 32px;
     font-style: normal;
     line-height: 140%;
-    letter-spacing: -0.03em;
-    word-spacing: -0.14em;
 }
 
 .message__contact-call {
-    padding-top: 42px;
+    padding-top: 43px;
     color: #334563;
     font-weight: 800;
     font-size: 12px;
@@ -1261,7 +1243,7 @@ label {
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    word-spacing: -1px;
+    word-spacing: 2px;
 }
 
 
@@ -1271,7 +1253,7 @@ label {
     font-size: 24px;
     font-style: normal;
     line-height: 150%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
 }
