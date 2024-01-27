@@ -93,6 +93,7 @@ ol {
 }
 
 .header__menu-link {
+    padding-top: 4px;
     color: #FFF;
     font-weight: 700;
     font-size: 16px;
@@ -160,7 +161,6 @@ button {
     width: 226px;
     height: 56px;
     border: 1px solid transparent;
-    border-radius: 64px;
     cursor: pointer;
 }
 
@@ -169,11 +169,9 @@ button:active {
 }
 
 .header__button {
-    /*top: 392px;*/
-    /*left: 522px;*/
-    /*background: #FFF;*/
     position: relative;
     top: 2px;
+    border-radius: 64px;
     background: #FFF;
 }
 
@@ -231,15 +229,51 @@ button:active {
 }
 
 .button__photo {
-    position: absolute;
-    top: 285px;
-    left: -80px;
-    flex-shrink: 0;
+    position: relative;
+    bottom: 355px;
+    left: -82px;
+    display: flex;
     width: 164px;
     height: 64px;
-    background-image: url(../images/Slider.svg);
-    background-repeat: no-repeat;
     cursor: pointer;
+}
+
+.button__photo-left {
+    width: 82px;
+    height: 64px;
+    border-top-left-radius: 64px;
+    border-bottom-left-radius: 64px;
+    background: #FCC304;
+}
+
+.stream__left {
+    position: absolute;
+    top: 17px;
+    left: 24px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/strelka_vverh_n21hd6c2knhr_32.png);
+    background-repeat: no-repeat;
+    transform: rotate(270deg);
+}
+
+.button__photo-right {
+    width: 82px;
+    height: 64px;
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    background: #FCC304;
+}
+
+.stream__right {
+    position: absolute;
+    top: 17px;
+    left: 106px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/strelka_vverh_n21hd6c2knhr_32.png);
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
 }
 
 .header__social-menu {
@@ -883,12 +917,12 @@ button:active {
     height: 64px;
     padding-top: 44px;
     color: #253757;
+    font-family: Mulish, cursive;
     font-weight: 400;
     font-size: 15px;
-    font-style: italic;
     line-height: 150%;
-    letter-spacing: 1px;
     text-align: center;
+    word-spacing: -0.15em;
 }
 
 .testimonials__cards-feature {
