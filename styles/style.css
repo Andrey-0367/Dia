@@ -1148,7 +1148,7 @@ button:active {
 
 .message__intro {
     display: flex;
-    gap: 16px;
+    gap: 12px;
     padding-top: 7px;
     padding-left: 7px;
 }
