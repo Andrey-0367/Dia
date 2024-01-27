@@ -482,17 +482,18 @@ button:active {
 }
 
 .process__fon {
-    grid-column: 1/48;
-    grid-row: 1/48;
+    grid-column: 1/12;
+    grid-row: 1/12;
     width: 1472px;
     margin-top: -146px;
     background: #FCFCFD;
 }
 
 .process {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(48, 1fr);
-    grid-template-rows: repeat(48, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     width: 1472px;
     height: 1200px;
     margin: 310px auto auto;
@@ -501,8 +502,8 @@ button:active {
 .process__illusion {
     display: flex;
     flex-direction: column;
-    grid-column: 5/29;
-    grid-row: 1/36;
+    grid-column: 2/5;
+    grid-row: 1/5;
     justify-content: space-between;
     width: 374px;
     height: 377px;
@@ -551,31 +552,27 @@ button:active {
 }
 
 .card-1 {
-    grid-column: 22/40;
-    grid-row: 17/48;
-    margin-top: 11px;
-    margin-left: -2px;
+    position: absolute;
+    top: 186px;
+    left: 712px;
 }
 
 .card-2 {
-    grid-column: 31/48;
-    grid-row: 7/32;
-    margin-top: 8px;
-    margin-left: -10px;
+    position: absolute;
+    top: 74px;
+    left: 1010px;
 }
 
 .card-3 {
-    grid-column: 22/40;
-    grid-row: 26/48;
-    margin-top: 26px;
-    margin-left: -2px;
+    position: absolute;
+    top: 570px;
+    left: 712px;
 }
 
 .card-4 {
-    grid-column: 31/48;
-    grid-row: 24/48;
-    margin-top: 27px;
-    margin-left: -10px;
+    position: absolute;
+    top: 459px;
+    left: 1010px;
 }
 
 .card__number {
@@ -651,32 +648,30 @@ button:active {
 }
 
 .pencil-1 {
-    grid-column: 19/40;
-    grid-row: 22/48;
-    margin-top: -9px;
-    margin-left: 8px;
+    position: absolute;
+    top: 305px;
+    left: 622px;
     background: linear-gradient(#FFFFFF, #FFFFFF00) #56CCF2;
 }
 
 .pencil-2 {
-    grid-column: 28/48;
-    grid-row: 20/30;
-    margin-top: -8px;
+    position: absolute;
+    top: 193px;
+    left: 919px;
     background: linear-gradient(#FFFFFF, #FFFFFF00) #FCC304;
 }
 
 .pencil-3 {
-    grid-column: 19/40;
-    grid-row: 29/48;
-    margin-top: -21px;
-    margin-left: 8px;
+    position: absolute;
+    top: 691px;
+    left: 619px;
     background: linear-gradient(#FFFFFF, #FFFFFF00) #03D542;
 }
 
 .pencil-4 {
-    grid-column: 28/48;
-    grid-row: 26/48;
-    margin-top: 36px;
+    position: absolute;
+    top: 577px;
+    left: 919px;
     background: linear-gradient(#FFFFFF, #FFFFFF00) #F25656;
 }
 
@@ -684,6 +679,7 @@ button:active {
     grid-column: 2/5;
     grid-row: 2/5;
     align-self: center;
+    justify-self: center;
     width: 176px;
     height: 80px;
     padding-top: 11px;
@@ -704,10 +700,10 @@ button:active {
 
 .cover__illusion {
     position: relative;
-    top: 464px;
-    left: -67px;
-    grid-column: 1/48;
-    grid-row: 20/48;
+    top: 573px;
+    left: -68px;
+    grid-column: 1/13;
+    grid-row: 2/13;
     width: 1600px;
     height: 1585px;
     background: #56CCF2;
