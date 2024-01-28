@@ -538,7 +538,7 @@ button:active {
     grid-template-rows: repeat(4, 1fr);
     width: 240px;
     height: 256px;
-    box-shadow: 16px 16px 16px 0 rgba(0, 0, 0, 0.02);
+    box-shadow: 16px 16px 16px 0 rgba(0 0 0 / 0.02);
     background: #FFF;
 }
 
@@ -642,28 +642,28 @@ button:active {
     position: absolute;
     top: 305px;
     left: 622px;
-    background: linear-gradient(#FFFFFF, #FFFFFF00) #56CCF2;
+    background: linear-gradient(#FFF, #FFF0) #56CCF2;
 }
 
 .pencil-2 {
     position: absolute;
     top: 193px;
     left: 919px;
-    background: linear-gradient(#FFFFFF, #FFFFFF00) #FCC304;
+    background: linear-gradient(#FFF, #FFF0) #FCC304;
 }
 
 .pencil-3 {
     position: absolute;
     top: 691px;
     left: 619px;
-    background: linear-gradient(#FFFFFF, #FFFFFF00) #03D542;
+    background: linear-gradient(#FFF, #FFF0) #03D542;
 }
 
 .pencil-4 {
     position: absolute;
     top: 577px;
     left: 919px;
-    background: linear-gradient(#FFFFFF, #FFFFFF00) #F25656;
+    background: linear-gradient(#FFF, #FFF0) #F25656;
 }
 
 .process__illusion-card-text {
@@ -847,7 +847,7 @@ button:active {
     align-items: center;
     width: 314px;
     height: 464px;
-    box-shadow: 16px 16px 32px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 16px 16px 32px 0 rgba(0 0 0 / 0.05);
     background: #FEFEFE;
 }
 
